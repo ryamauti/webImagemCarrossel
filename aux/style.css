@@ -1,0 +1,16 @@
+html {
+  background-color: #111111; 
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+}
+
+.mySlides {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
