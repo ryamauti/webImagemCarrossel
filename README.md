@@ -10,3 +10,17 @@ O css garante que a imagem ocupe a tela inteira (max height).
 Basta substituir em voo qualquer uma das imageN.jpg. 
 No seu segmento do minuto, a imagem nova aparecerá, graças ao refresh.
 
+### Refresh:
+
+Também é possível fazer refresh por Javascript:
+```javascript
+// Recarrega a página atual sem usar o cache
+document.location.reload(true);
+```
+com isso pode-se fazer o refresh a cada ciclo, e forçar a exclusão do cache.
+
+### File Upload
+
+Outra forma além do FTP é usar o File API do JS para carregar as imagens no servidor web.
+
+https://www.webcodegeeks.com/html5/html5-file-upload-example/
