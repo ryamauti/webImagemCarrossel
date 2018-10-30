@@ -24,3 +24,13 @@ com isso pode-se fazer o refresh a cada ciclo, e forçar a exclusão do cache.
 Outra forma além do FTP é usar o File API do JS para carregar as imagens no servidor web.
 
 https://www.webcodegeeks.com/html5/html5-file-upload-example/
+
+
+### HTML: problemas com acentuação ?
+
+É preciso instruir o browser a usar o nosso  character encoding:
+```html
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />	
+```
