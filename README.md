@@ -34,3 +34,11 @@ https://www.webcodegeeks.com/html5/html5-file-upload-example/
 <head>
     <meta charset="utf-8" />	
 ```
+
+### Servidor HTTP POST e GET: Twisted
+
+O código twistpost.py pode ser executado em um ambiente que seja visível por ambas as máquinas. 
+Ele recebe uma entrada de texto via POST e armazena esta entrada. via GET ele retorna este valor armazenado.
+```shell
+curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://35.231.32.39:3030/data
+```
